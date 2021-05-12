@@ -154,6 +154,6 @@ class FractionalExperiment:
             print('Математична модель не адекватна експериментальним даним')
 
 
-experiment = FractionalExperiment(7, 8)
+experiment = FractionalExperiment(5, 6)
 experiment.check()
 
