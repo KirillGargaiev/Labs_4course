@@ -156,4 +156,5 @@ class FractionalExperiment:
 
 experiment = FractionalExperiment(5, 6)
 experiment.check()
-
+#Метод check используем для проверки дисперсии на однородность по критерию Кохрена, 0 гипотезу по критерию 
+#Стьюдента и адекватность модели по критерию Фишера.
