@@ -3,7 +3,6 @@ import numpy as np
 from scipy.stats import f, t
 from sklearn import linear_model
 
-# лічильник для часу
 for i in range(100):
     m = 3
     n = 15
