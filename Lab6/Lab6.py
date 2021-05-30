@@ -183,6 +183,8 @@ for j in range(11):
     else:
         coefs1.append(beta[j])
 print("Значущі коефіцієнти регресії:", [round(i, 3) for i in coefs1])
+if len(coefs1) == 1:
+    print("Рівняння регресії  є неадекватне")
 print("Незначущі коефіцієнти регресії:", [round(i, 3) for i in coefs2])
 y_st = []
 for i in range(n):
@@ -202,4 +204,3 @@ if Fp < f.ppf(q=0.95, dfn=F4, dfd=F3):
     print("Рівняння регресії адекватне при рівні значимості 0.05")
 else:
     print("Рівняння регресії неадекватне при рівні значимості 0.05")
-
